@@ -17,8 +17,7 @@ const clownSound = new Audio('./sounds/clown.mp3')
 const endSound = new Audio('./sounds/end.mp3')
 const accelSound = new Audio('./sounds/accel.mp3')
 const musicSound = new Audio('./sounds/music.mp3') //  https://www.youtube.com/watch?v=2f81W4_bdeI&ab_channel=TheSci-FiSoundsProject-Topic
-musicSound.volume = 0.1
-musicSound.play()
+
 
 let previousNumber
 const randomNumber = (event) => {
@@ -39,6 +38,7 @@ let startGame = (event) => {
   circleButtons.forEach(button => {
     button.disabled = false
   })
+  musicSound.play()
   musicSound.volume = 0.05
   accelSound.play()
   event.preventDefault()
