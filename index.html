@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Speed game!!!</title>
+</head>
+
+<body>
+  <div id="layer">
+  <form>
+    <h1>
+    <!--   <button id="muteButton"></button> -->
+      SPEED GAME!</h1>
+    <h2>How fast can you go without crashing?</h2>
+    <h3>Click the empty circle to dodge!</h3>
+    <p>Current speed:<span id="scoreDisplay"></span></p>
+    <section id="circles">
+      <button class="circle" id="circle1"></button> 
+      <button class="circle" id="circle2"></button> 
+      <button class="circle" id="circle3"></button> 
+      <button class="circle" id="circle4"></button> 
+      
+    </section>
+    <div id="gameButtons">
+      <button class="btn start" id="startButton">Start Game</button>
+      <button class="btn last" id="endButton">End Game</button>
+    </div>
+    <div class="overlay">
+    <div class="modal">
+      <h2>Game over!</h2>
+      <p><span id="finalScore"></span></p>
+      <p id="message"></p>
+      <div id="close">
+      <button class= "btn close" id="close">Play again</button>
+      </div>
+    </div>
+    </div>
+    
+  </form>
+  <script src="main.js"></script>
+  </div>
+</body>
+
+</html>
