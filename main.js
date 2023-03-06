@@ -12,11 +12,11 @@ let rounds = 0
 circleButtons.forEach(button => {
   button.disabled = true
 })
-const clickSound = new Audio('whoosh4.mp3')
-const clownSound = new Audio('clown.mp3')
-const endSound = new Audio('end.mp3')
-const accelSound = new Audio('accel.mp3')
-const musicSound = new Audio('music.mp3') //  https://www.youtube.com/watch?v=2f81W4_bdeI&ab_channel=TheSci-FiSoundsProject-Topic
+const clickSound = new Audio('./sounds/whoosh4.mp3')
+const clownSound = new Audio('./sounds/clown.mp3')
+const endSound = new Audio('./sounds/end.mp3')
+const accelSound = new Audio('./sounds/accel.mp3')
+const musicSound = new Audio('./sounds/music.mp3') //  https://www.youtube.com/watch?v=2f81W4_bdeI&ab_channel=TheSci-FiSoundsProject-Topic
 musicSound.volume = 0.1
 musicSound.play()
 

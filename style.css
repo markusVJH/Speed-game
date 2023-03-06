@@ -5,7 +5,7 @@
 }
 
 body {
-  background: rgb(83, 83, 83) url(asteroidbg.webp) no-repeat fixed center
+  background: rgb(83, 83, 83) url(images/asteroidbg.webp) no-repeat fixed center
     center/cover;
   /*   /https://www.unrealengine.com/marketplace/en-US/product/asteroid-field-with-asteroid-stations-pack */
   font-family: "Nova Mono", monospace;
@@ -63,7 +63,7 @@ h1 {
   display: flex;
   height: 20vh;
   width: 20vh;
-  background: rgba(83, 83, 83, 0) url(asteroid.png) no-repeat center
+  background: rgba(83, 83, 83, 0) url(images/asteroid.png) no-repeat center
     center/cover;
   padding: 2rem;
   border: none;
