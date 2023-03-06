@@ -29,7 +29,6 @@ const randomNumber = (event) => {
   pace = pace - 30
   circleClicked = false
   rounds++
-  console.log(`rounds: ${rounds}`)
   if (rounds === 3) {
     endGame(event)
   }
@@ -42,12 +41,10 @@ let startGame = (event) => {
   })
   musicSound.volume = 0.05
   accelSound.play()
-  /* console.log('Start button is clicked') */
   event.preventDefault()
   startButton.classList.add('hide')
   endButton.classList.add('end')
   randomNumber(event)
-  console.log(number)
   const newCircle = circleButtons[number]
   if (previousCircle !== null) {
     previousCircle.classList.remove('bg')
@@ -61,10 +58,8 @@ let startGame = (event) => {
 
 let circleClicked = false
 const clickCircle = (i) => {
-  console.log('circle index:', i)
   if (i === number && circleClicked === false) {
     scoreCount += 30
-    console.log(scoreCount)
     scoreDisplay.textContent = ` ${scoreCount}km/h`
     circleClicked = true
     rounds = 0
