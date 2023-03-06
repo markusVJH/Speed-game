@@ -12,7 +12,7 @@ Built with:
 
 ## Setup and usage
 
-Live page [here](https://public.bc.fi/s2300098/speed_game5/
+Live page [here](https://public.bc.fi/s2300098/speedGame/
 
 ## Known Issue
 
