@@ -1,6 +1,6 @@
 # Speed Game
 
-This is a school project, where the objective was to make a speed game. The player has to click highlighted circles for as long as they can, and the game gets progressively faster.
+This is a school project, where the objective was to create a speed game. The player has to click highlighted circles for as long as they can, as the game gets progressively faster.
 
 ## Technologies used
 
